@@ -111,3 +111,19 @@ a:hover {
   max-width: 150px;
   border-radius: 50%;
 }
+
+.gallery-pumba {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-item {
+  text-align: center;
+  margin: 0 15px;
+}
+
+.image-item img {
+  width: 65%; /* Set width of images to 30% */
+  height: auto; /* Maintain aspect ratio */
+}
+
